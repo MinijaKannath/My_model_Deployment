@@ -17,7 +17,7 @@ def ValuePredictor(to_predict_list):
     file_handle = None
     to_predict = np.array(to_predict_list).reshape(1, 22)
     try :
-        file_handle = open("Flask/model.pkl", "rb")
+        file_handle = open("model.pkl", "rb")
     except:
         print("Could not open file")
     
