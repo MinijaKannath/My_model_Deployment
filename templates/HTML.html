@@ -1,0 +1,284 @@
+<html>
+
+<body bgcolor="#FFFFCC">
+	<h1>Company Status Prediction<h1>
+	<h2> </h2>
+                <div><img src="https://th.bing.com/th/id/OIP.XQFc89brz5S8tiEnkgtDUwHaEK?pid=ImgDet&rs=1"width="200" height="121"></div>
+       
+<div>
+	<form action="/result" method="POST">
+	<label for="funding_total_usd">Funding_total_usd</label>
+	<input type="number" id="funding_total_usd" name="funding_total_usd">
+	<br>
+  	<label for="country_code">Country:</label>
+  	<select type="text" id ="country_code" name="country_code">
+		<option value="">--Please choose an option--</option>
+            	<option value="20">China</option>
+            	<option value="17">Canada</option>
+           	<option value="118">United States</option>
+           	<option value="19">Chile</option>
+            	<option value="38">United Kingdom</option>
+		<option value="37">France</option>
+            	<option value="4">Australia</option>
+           	<option value="96">Romania</option>
+           	<option value="82">Netherlands</option>
+            	<option value="106">Sweden</option>
+		<option value="97">Russia</option>
+           	<option value="29">Denmark</option>
+            	<option value="22">Colombia</option>
+		<option value="34">Spain</option>
+           	<option value="8">Belgium</option>
+            	<option value="52">Ireland</option>
+		<option value="56">Italy</option>
+           	<option value="51">India</option>
+            	<option value="55">Israel</option>
+		<option value="100">Singapore</option>
+           	<option value="85">New Zealand</option>
+            	<option value="18">Switzwerland</option>
+		<option value="15">Brazil</option>
+           	<option value="58">Jordan</option>
+            	<option value="49">Hungary</option>
+		<option value="16">Botswana</option>
+           	<option value="27">Germany</option>
+            	<option value="62">South Korea</option>
+		<option value="36">Finland</option>
+           	<option value="46">Hong Kong</option>
+            	<option value="25">Cyprus</option>
+		<option value="23">Costa Rica</option>
+           	<option value="50">Indonesia</option>
+            	<option value="93">Portugal</option>
+		<option value="105">Slovenia</option>
+           	<option value="2">Argentina</option>
+            	<option value="59">Japan</option>
+		<option value="80">Nigeria</option>
+           	<option value="114">Taiwan</option>
+            	<option value="110">Thai baht</option>
+		<option value="104">Slovakia</option>
+           	<option value="83">Norway</option>
+            	<option value="116">Ukraine</option>
+		<option value="67">Lithuania</option>
+           	<option value="54">Island</option>
+            	<option value="113">Turkey</option>
+		<option value="120">Venezuela</option>
+           	<option value="117">Urugauy</option>
+            	<option value="122">South Africa</option>
+		<option value="74">Mexico</option>
+           	<option value="89">Peru</option>
+            	<option value="91">Poland</option>
+		<option value="33">Egypt</option>
+           	<option value="88">Panama</option>
+            	<option value="90">Phlippines</option>
+		<option value="40">Guernsey</option>
+           	<option value="5">Austria</option>
+            	<option value="121">Vietnam</option>
+		<option value="115">Uganda</option>
+           	<option value="48">Croatia</option>
+            	<option value="35">Estonia</option>
+		<option value="78">Mauritius</option>
+           	<option value="64">Lebonan</option>
+            	<option value="10">Bulgeria</option>
+		<option value="68">Luxembourg</option>
+           	<option value="26">Czechia</option>
+            	<option value="1">Argentina</option>
+		<option value="99">Saudi Arabia</option>
+           	<option value="53">Iran</option>
+            	<option value="79">Malaysia</option>
+		<option value="0">Albania</option>
+           	<option value="7">Bahrain</option>
+            	<option value="3">Armenia</option>
+		<option value="9">Bangladesh</option>
+           	<option value="73">Moldova</option>
+            	<option value="112">Tunisia</option>
+		<option value="60">Kenya</option>
+           	<option value="108">Tanzania</option>
+            	<option value="84">Nepal</option>
+		<option value="69">Latvia</option>
+           	<option value="92">Puertorico</option>
+            	<option value="111">Trinidad and Tobago</option>
+		<option value="21">Cameroon</option>
+           	<option value="103">Serbia</option>
+            	<option value="13">Belarus</option>
+		<option value="24">Cayman Island</option>
+           	<option value="32">Ecuador</option>
+            	<option value="41">Ghana</option>
+		<option value="101">Salvador</option>
+           	<option value="43">Greece</option>
+            	<option value="76">Malta</option>
+		<option value="81">Nicaragua</option>
+           	<option value="87">Pakistan</option>
+            	<option value="123">Zambia</option>
+		<option value="42">Gibraltar</option>
+           	<option value="11">Bahrain</option>
+            	<option value="109">Togo</option>
+		<option value="14">Bermuda</option>
+           	<option value="47">Honduras</option>
+            	<option value="72">Monaco</option>
+		<option value="77">Myanmar</option>
+           	<option value="95">Qatar</option>
+            	<option value="71">Moroco</option>
+		<option value="39">Georgia</option>
+           	<option value="31">Algeria</option>
+            	<option value="45">Guatemala</option>
+		<option value="30">Dominican Republic</option>
+        <option value="65">Liechtenstein</option>
+        <option value="28">Dominica</option>
+		<option value="119">Uzbekistan</option>
+		<option value="86">Oman</option>
+		<option value="6">Azerbaijan</option>
+		<option value="57">Jamaica</option>
+		<option value="98">Rwanda</option>
+		<option value="61">Cambodia</option>
+		<option value="12">Barthelemi</option>
+		<option value="44">Grenada</option>
+		<option value="63">Laos</option>
+		<option value="102">Somalia</option>
+		<option value="75">North Macedonia</option>
+		<option value="66">Srilanka</option>
+		<option value="107">Seychellois</option>
+		<option value="94">Paraguay</option>
+		<option value="70">SaintMartin</option>
+	</select>
+
+	
+	<br>
+	<label for="funding_rounds">Funding_rounds</label>
+	<input type="number" id="funding_rounds" name="funding_rounds">
+
+	<br>
+	<label for="founded_at">YearFounded:</label>
+	<input type="number" id="founded_at" name="founded_at" >
+
+	<br>
+
+	<label for="first_funded_Year">FirstFundedYear:</label>
+	<input type="number" id="first_funded_Year" name="first_funded_Year" >
+
+	<br>
+
+	<label for="last_funded_Year">LastFundedYear:</label>
+	<input type="number" id="lastt_funded_Year" name="last_funded_Year" >
+	<br>
+
+	<h3>Select funding type<h3>
+	</h3>	
+		<label for="angel">Angel:</label>
+  		<select  id="angel" name="angel">
+            	<option value="0">No</option>
+            	<option value="1">Yes</option>
+		</select>
+	</h3>			
+	<br>
+	<label for="convertible_note">ConvertibleNote:</label>
+  	<select  id="convertible_note" name="convertible_note">
+            	<option value="0">No</option>
+            	<option value="1">Yes</option>
+	</select>
+    </h3>			
+	<br>
+	<label for="debt_financing">DebtFinancing:</label>
+  	<select  id="debt_financing" name="debt_financing">
+            	<option value="0">No</option>
+            	<option value="1">Yes</option>
+	</select>	
+
+	<br>
+	<label for="equity_crowdfunding">EquityCrowdfunding:</label>
+  	<select  id="equity_crowdfunding" name="equity_crowdfunding">
+            	<option value="0">No</option>
+            	<option value="1">Yes</option>
+	</select>	
+	<br>
+	<label for="grant">Grant:</label>
+  	<select id="grant" name="grant">
+            	<option value="0">No</option>
+            	<option value="1">Yes</option>
+	  </select>	
+	<br>
+	<label for="non_equity_assistance">NonEquityAssistance:</label>
+  	<select  id="non_equity_assistance" name="non_equity_assistance">
+            	<option value="0">No</option>
+            	<option value="1">Yes</option>
+	</select>	
+	<br>
+	<label for="private_equity">PrivateEquity:</label>
+  	<select  id="private_equity" name="private_equity">
+            	<option value="0">No</option>
+            	<option value="1">Yes</option>
+	  </select>
+	<br>
+	<label for="seed">Seed:</label>
+  	<select  id="seed" name="seed">
+            	<option value="0">No</option>
+            	<option value="1">Yes</option>
+	  </select>	
+	<br>
+	<label for="venture">Venture:</label>
+  	<select type="text" id="venture" name="venture">
+            	<option value="0">No</option>
+            	<option value="1">Yes</option>
+	</select>	
+	<br>
+
+	<div>
+	<h3>Select Sector<h3>
+	</h3>
+	<label for="Automotive_Sports">AutomotiveSports:</label>
+  	<select id="Automotive_Sports" name="Automotive_Sports">
+            	<option value="0">No</option>
+            	<option value="1">Yes</option>
+	</select>
+
+	<br>
+
+	<label for="Cleantech_Semiconductors">CleantechSemiconductors:</label>
+  	<select  id="Cleantech_Semiconductors" name="Cleantech_Semiconductors">
+            	<option value="0">No</option>
+            	<option value="1">Yes</option>
+	</select>
+	<br>
+
+	<label for="Entertainment">Entertainment:</label>
+  	<select id="Entertainment" name="Entertainment">
+            	<option value="0">No</option>
+            	<option value="1">Yes</option>
+	</select>	
+	<br>
+
+	<label for="Health">Health:</label>
+  	<select type="text" id="Health" name="Health">
+            	<option value="0">No</option>
+            	<option value="1">Yes</option>
+	</select>	
+	<br>
+
+	<label for="Manufacturing">Manufacturing:</label>
+  	<select id="Manufacturing" name="Manufacturing">
+            	<option value="0">No</option>
+            	<option value="1">Yes</option>
+
+	</select>
+	<br>
+	
+	<label for="News_Search_and_Messaging">News_Search_and_Messaging:</label>
+  	<select id="News_Search_and_Messaging" name="News_Search_and_Messaging">
+            	<option value="0">No</option>
+            	<option value="1">Yes</option>
+	</select>	
+	<br>
+	<label for="Social_Finance_Analytics_Advertising">Social_Finance_Analytics_Advertising:</label>
+  	<select id="Social_Finance_Analytics_Advertising" name="Social_Finance_Analytics_Advertising">
+            	<option value="0">No</option>
+            	<option value="1">Yes</option>
+	  </select>	
+	<br>
+	</div>
+
+	<div>
+
+	<input type ='submit' value = 'Predict' >
+                </div>
+
+
+
+
+				
